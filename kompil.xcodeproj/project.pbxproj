@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7A841EE21C19AA88000FC98B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A841EE11C19AA88000FC98B /* main.cpp */; };
+		7A841EEA1C19AAF2000FC98B /* lexanallis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A841EE81C19AAF2000FC98B /* lexanallis.cpp */; };
+		7A841EED1C19AB10000FC98B /* sintaxanalis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A841EEB1C19AB10000FC98B /* sintaxanalis.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		7A841EDE1C19AA88000FC98B /* kompil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kompil; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A841EE11C19AA88000FC98B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7A841EE81C19AAF2000FC98B /* lexanallis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lexanallis.cpp; sourceTree = "<group>"; };
+		7A841EE91C19AAF2000FC98B /* lexanallis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lexanallis.h; sourceTree = "<group>"; };
+		7A841EEB1C19AB10000FC98B /* sintaxanalis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sintaxanalis.cpp; sourceTree = "<group>"; };
+		7A841EEC1C19AB10000FC98B /* sintaxanalis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sintaxanalis.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		7A841ED51C19AA88000FC98B = {
 			isa = PBXGroup;
 			children = (
+				7A841EE81C19AAF2000FC98B /* lexanallis.cpp */,
+				7A841EEB1C19AB10000FC98B /* sintaxanalis.cpp */,
+				7A841EEC1C19AB10000FC98B /* sintaxanalis.h */,
+				7A841EE91C19AAF2000FC98B /* lexanallis.h */,
 				7A841EE01C19AA88000FC98B /* kompil */,
 				7A841EDF1C19AA88000FC98B /* Products */,
 			);
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A841EED1C19AB10000FC98B /* sintaxanalis.cpp in Sources */,
+				7A841EEA1C19AAF2000FC98B /* lexanallis.cpp in Sources */,
 				7A841EE21C19AA88000FC98B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

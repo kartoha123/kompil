@@ -7,9 +7,23 @@
 //
 
 #include <iostream>
+#include "../lexanallis.h"
+#include "../sintaxanalis.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    reading("/Users/elizaveta/Documents/Универ/Новая папка/языки/lexanalis/lexanalis/newfile.txt");
+    for (int a=0; a<result.size(); a++) {
+        cout<<result[a].ValuaLexem<<' '<<result[a].TypeLexem<<' '<<result[a].NumberOfStr<<' '<<'\n';
+        
+    }
+cout << "\nParsing tree\n";
+Node* node = new Node(result);
+    if (!error_flag) {
+        cout << "\nPrinting tree\n";
+        node->print();
+    }
+ 
+    
+    
 }
+

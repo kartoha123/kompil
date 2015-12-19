@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Node::parse_logic_expression():sintaxanalis.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Error(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, Lexem, int):lexanallis.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "a">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Node::print():sintaxanalis.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Node::parse_expression():sintaxanalis.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Node::parse_stmt_list():sintaxanalis.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Node::parse_var_init():sintaxanalis.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Node::parse(Node*):sintaxanalis.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Node::parse_statement():sintaxanalis.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
